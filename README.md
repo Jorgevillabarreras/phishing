@@ -84,4 +84,30 @@ Si el email tiene un attachment podemos obtener el hash. Para chequiar la reputa
 user@machine$ sha256sum Double\ Jackpot\ Slots\ Las\ Vegas.dot
 c650f397a9193db6a2e1a273577d8d84c5668d03c06ba99b17e4f6617af4ee83  Double Jackpot Slots Las Vegas.dot
 ```
+Despues que tengamos el hash podemos verificarlo en VirusTotal para ver su reputacion
+Aqui en el screenshot un ejemplo del mismo:
+![image](https://user-images.githubusercontent.com/71448878/159753973-80c0aeb4-0e06-4edf-9547-f7c0f65660d7.png)
+
+---
+## Malware SandBox
+ Por suerte como defensores no necesitamos tener habilidades de analisis de malware. Hay website que nos ayudan a analizar los malware y decirnos que es lo que hacen.
+ Como ejemplo podemos cojer un attachment que hay en los emails que parece malicioso con estos site
+ 
+ ### Any RUN
+ 
+ https://app.any.run/
+ 
+ > "Analyze a network, file, module, and the registry activity. Interact with the OS directly from a browser. See the feedback from your actions immediately".
+
+### Hybrid Analysis: 
+
+https://www.hybrid-analysis.com/
+
+> "This is a free malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology."
+
+### Joe Security
+
+https://www.joesecurity.org/
+
+> "Joe Sandbox empowers analysts with a large spectrum of product features. Among them: Live Interaction, URL Analysis & AI based Phishing Detection, Yara and Sigma rules support, MITRE ATT&CK matrix, AI based malware detection, Mail Monitor, Threat Hunting & Intelligence, Automated User Behavior, Dynamic VBA/JS/JAR instrumentation, Execution Graphs, Localized Internet Anonymization and many more".
 
