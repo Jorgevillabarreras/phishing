@@ -59,4 +59,4 @@ https://www.virustotal.com/gui/home/upload
 
 Los links los podemos extraer manualmente directamente del formato HTML
 como este ejemplo:
-![Drag Racing](file:///home/cuernov/Pictures/Screenshot_2022-03-23_12_36_16.png)
+![Drag Racing](https://assets.tryhackme.com/additional/phishing2/copy-link.png)
