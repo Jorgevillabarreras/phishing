@@ -60,3 +60,28 @@ https://www.virustotal.com/gui/home/upload
 Los links los podemos extraer manualmente directamente del formato HTML
 como este ejemplo:
 ![Drag Racing](https://assets.tryhackme.com/additional/phishing2/copy-link.png)
+
+Tambien podemos hacer lo mismo con este tool que nos puede ayudar
+https://www.convertcsv.com/url-extractor.htm
+
+Podemos copiar el raw header en el text box como el __Paso 1 y Paso 2__
+
+![Pas02](![image](https://user-images.githubusercontent.com/71448878/159752341-2db90603-a108-408d-b843-3a72d2059323.png)
+
+__Paso 3__ 
+
+![image](https://user-images.githubusercontent.com/71448878/159752672-a5005a01-93c3-4d18-9996-57082af730bc.png)
+
+Tambien podemos usar https://gchq.github.io/CyberChef/
+
+![image](https://user-images.githubusercontent.com/71448878/159752956-c77f44d0-d7ec-479c-a101-693692467868.png)
+
+> es importante que tomemos en cuenta el root domain del website de done extraemos los links
+
+## Attachment
+Si el email tiene un attachment podemos obtener el hash. Para chequiar la reputacion del file en Talos o VirusTotal
+```bash
+user@machine$ sha256sum Double\ Jackpot\ Slots\ Las\ Vegas.dot
+c650f397a9193db6a2e1a273577d8d84c5668d03c06ba99b17e4f6617af4ee83  Double Jackpot Slots Las Vegas.dot
+```
+
